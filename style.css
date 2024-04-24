@@ -1,19 +1,24 @@
 .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
+    border-radius: 5px;
+
     text-align: center;
+    background-color: rgb(255, 255, 255); 
+
   }
   
 
   body {
-    background-color: rgb(173, 52, 52); 
+    background-color: rgb(104, 31, 201); 
     display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
-  margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
   } 
+
   .campos-container {
     margin-bottom: 20px;
   }
@@ -21,10 +26,15 @@
   textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #c97878;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     resize: vertical;
   }
+
+h1 {color:  rgb(104, 31, 201);
+}
+
+
   
   .contador {
     font-size: 18px;
@@ -33,7 +43,7 @@
   
   #btn-contar {
     padding: 10px 20px;
-    background-color: #9e0000;
+    background-color: rgb(104, 31, 201); 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -42,5 +52,5 @@
   }
   
   #btn-contar:hover {
-    background-color: #000000;
+    background-color: #7e7e7e;
   }
